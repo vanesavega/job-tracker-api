@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jobtracker-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jobtracker-api
+  template:
+    metadata:
+      labels:
+        app: jobtracker-api
+    spec:
+      containers:
+        - name: jobtracker-api
+          image: jobtracker-api:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: ConnectionStrings__DefaultConnection
+              value: "Server=sqlserver-service,1433;Database=JobTrackerDb;User Id=sa;Password=MyStr0ng!Pass;TrustServerCertificate=true"
+            - name: ASPNETCORE_URLS
+              value: "http://+:8080"
