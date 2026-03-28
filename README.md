@@ -8,11 +8,10 @@ API REST para rastrear aplicaciones laborales, desarrollada con ASP.NET Core 10 
 
 ## Integrantes del equipo
 
-- Dahiana Vanesa Vega Mira
-
-PENDIENTE 
-
-
+- Dahiana Vanesa Vega Mira+
+- Santiago Ramirez
+- Juliana Ospina
+- David
 
 ## Video de evidencia
 
