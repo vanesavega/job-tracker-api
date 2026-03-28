@@ -10,12 +10,12 @@ API REST para rastrear aplicaciones laborales, desarrollada con ASP.NET Core 10 
 
 - Dahiana Vanesa Vega Mira+
 - Santiago Ramirez
+- Juan Jose Herrera
 - Juliana Ospina
 - David
 
 ## Video de evidencia
-
-PENDIENTE - [Enlace al video de YouTube]
+[Enlace al video de YouTube]
 
 
 
